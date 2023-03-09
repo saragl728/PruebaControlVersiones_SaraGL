@@ -8,5 +8,7 @@ namespace PruebaControlVersiones_SaraGL
 {
     internal class Modelo
     {
+        private string nombre;
+        private string apellidos;
     }
 }

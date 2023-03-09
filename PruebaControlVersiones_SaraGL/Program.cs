@@ -4,6 +4,9 @@
     {
         static void Main(string[] args)
         {
+            Modelo prueba;
+            prueba = new Modelo();
+
             Console.WriteLine("Sara");
         }
     }
