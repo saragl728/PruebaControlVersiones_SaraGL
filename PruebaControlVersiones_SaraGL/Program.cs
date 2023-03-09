@@ -9,7 +9,8 @@
             prueba.Nombre = MeterCadena("Introducir el nombre");
             prueba.Apellidos = MeterCadena("Introducir los apellidos");
 
-            Console.WriteLine("Sara");
+            //7Console.WriteLine("Sara");
+            Console.WriteLine(prueba.ToString());
         }
         static string MeterCadena(string mensaje)
         {
