@@ -10,5 +10,17 @@ namespace PruebaControlVersiones_SaraGL
     {
         private string nombre;
         private string apellidos;
+
+        public string Nombre
+        {
+            get { return nombre; }
+            set { nombre = value; }
+        }
+
+        public string Apellidos
+        {
+            get { return apellidos; }
+            set { apellidos = value; }
+        }
     }
 }
