@@ -22,5 +22,10 @@ namespace PruebaControlVersiones_SaraGL
             get { return apellidos; }
             set { apellidos = value; }
         }
+
+        public override string ToString()
+        {
+            return Nombre + " " + Apellidos;
+        }
     }
 }
